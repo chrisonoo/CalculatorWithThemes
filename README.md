@@ -46,8 +46,14 @@ Features and implementations include:
 
 ![mobile](img/mobile.png)
 
-## About me
+## About Me
 
-Hello. My name is Krzysztof. I am looking for a job on an interesting and developing project. I am a person who **likes challenges**. I have just started my adventure in the programming industry. I study intensively and experiment with **my projects**. I invite you to [my portfolio](https://chriskodehub.github.io/portfolio/). 
+Hello, I'm Krzysztof, but feel free to call me Chris. I'm a budding full-stack programmer with a special focus on **.NET** and **SQL**. Passionate about problem-solving, I enjoy crafting efficient **backend** and **frontend** solutions.
+
+As an emerging software developer, I'm keen to apply my knowledge and skills in a professional setting. I'm excited to bring my life and professional experience, providing a unique perspective to software development tasks. Eager to commence my journey in the industry, I am **actively seeking employment opportunities** where I can continue to grow and create.
+
+Check out my [Portfolio](https://onoo.no/portfolio) or connect with me on [LinkedIn](https://www.linkedin.com/in/k-p-z/).
+
+[<div align="center"><br/><img src="img/portfolio.png" width="80%"></div>](https://onoo.no/portfolio)
 
 
