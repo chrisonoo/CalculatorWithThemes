@@ -1,7 +1,7 @@
 <div align="center">
     <h1>Calculator With Themes</h1>
     <h3>
-        <a href="#">
+        <a href="https://chrisonoo.github.io/CalculatorWithThemes/">
             Live demo
         </a>
         <span> | </span>
