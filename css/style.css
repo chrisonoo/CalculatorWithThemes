@@ -1,0 +1,337 @@
+/*noinspection CssUnknownTarget*/
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+
+/* ---------- calculator project CSS ---------- */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    user-select: none;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1;
+    font-family: "League Spartan", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.calculator {
+    width: 539px
+}
+
+/* ---------- calculator settings ---------- */
+
+.settings {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    font-size: 1.875rem;
+    line-height: 1.875rem;
+    padding-top: 12px
+}
+
+.switch-theme {
+    display: flex
+}
+
+.theme {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    padding-top: 26px;
+    padding-right: 20px;
+    letter-spacing: 0.1rem;
+}
+
+.theme-grid {
+    width: 73px
+}
+
+.theme-numbers {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.8rem;
+    padding: 0 3px;
+}
+
+.theme-number {
+    width: 33.33%;
+    text-align: center
+}
+
+.theme-bullets {
+    height: 25px;
+    border-radius: 16px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 3px
+}
+
+.theme-switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+    cursor: pointer
+}
+
+#bullet {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    transition: all .3s
+}
+
+/* ---------- calculator display ---------- */
+
+.display {
+    height: 128px;
+    border-radius: 10px;
+    margin-top: 32px;
+    font-size: 3.7rem;
+    line-height: 3.7rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.digits{
+    width: 100%;
+    margin: 10px 0 0 20px;
+    overflow: hidden;
+    text-align: right;
+    user-select: text;
+}
+
+#operator {
+    width:15px;
+    font-size: 1.5rem;
+    margin: 6px 20px 0 10px;
+}
+
+#signNumber {
+    width:15px;
+    font-size: 1.5rem;
+    margin: 6px 10px 0 20px;
+}
+
+/* ---------- calculator keys ---------- */
+
+.keys {
+    height: 472px;
+    border-radius: 10px;
+    margin-top: 23px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+    gap: 25px
+}
+
+.key {
+    border-radius: 10px;
+    height: 60px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 3rem;
+    line-height: 3rem;
+    padding-top: 9px;
+}
+
+#del, #reset {
+    color: #fffeff;
+    font-size: 2rem
+}
+
+#sign {
+    grid-column: 1/2;
+}
+
+#reset {
+    grid-column: 2/3
+}
+
+#equals {
+    color: #fffeff;
+    grid-column: 3/5
+}
+
+/* ---------- theme 1 ---------- */
+
+.theme1 {
+    background-color: hsl(222, 26%, 31%);
+}
+
+.theme1 .settings {
+    color: #fffeff;
+}
+
+.theme1 .theme-bullets {
+    background-color: hsl(223, 31%, 20%);
+}
+
+.theme1 #bullet {
+    background-color: #cd3f31;
+}
+
+.theme1 .display {
+    background-color: hsl(224, 36%, 15%);
+    color: #fffeff;
+}
+
+.theme1 .keys {
+    background-color: #252d44;
+}
+
+.theme1 .key {
+    background-color: #eae3d9;
+    border-bottom: 4px solid #b2a295;
+    color: hsl(221, 14%, 31%);
+}
+
+.theme1 #del, .theme1 #reset {
+    background-color: hsl(225, 21%, 49%);
+    border-color: hsl(224, 28%, 35%);
+}
+
+.theme1 #equals {
+    background-color: hsl(6, 63%, 50%);
+    border-color: hsl(6, 70%, 34%);
+}
+
+/* ---------- theme 2 ---------- */
+
+.theme2 {
+    background-color: #e6e6e6
+}
+
+.theme2 .settings {
+    color: #39392f
+}
+
+.theme2 .theme-bullets {
+    background-color: #d3cdcd
+}
+
+.theme2 #bullet {
+    background-color: #c85401
+}
+
+.theme2 .display {
+    background-color: #ffffff;
+    color: #39392f
+}
+
+.theme2 .keys {
+    background-color: #d3cdcd
+}
+
+.theme2 .key {
+    background-color: #e5e4e0;
+    border-bottom: 4px solid #a79d91;
+    color: hsl(221, 14%, 31%);
+}
+
+.theme2 #del, .theme2 #reset {
+    background-color: #388187;
+    border-color: #2c5d64
+}
+
+.theme2 #equals {
+    background-color: #c85401;
+    border-color: #873600
+}
+
+/* ---------- theme 3 ---------- */
+
+.theme3 {
+    background-color: #17062a
+}
+
+.theme3 .settings {
+    color: #ffe538
+}
+
+.theme3 .theme-bullets {
+    background-color: #1e0836
+}
+
+.theme3 #bullet {
+    background-color: #00dacd
+}
+
+.theme3 .display {
+    background-color: #1e0836;
+    color: #ffe538
+}
+
+.theme3 .keys {
+    background-color: #1e0836
+}
+
+.theme3 .key {
+    background-color: #331b4d;
+    border-bottom: 4px solid #77248c;
+    color: #ffe538
+}
+
+.theme3 #del, .theme3 #reset {
+    background-color: #56077c;
+    border-color: #bf16f5
+}
+
+.theme3 #equals {
+    background-color: #00decf;
+    border-color: #6ef7ef
+}
+
+/* ---------- responsive for mobile ---------- */
+
+@media screen and (max-width: 600px) {
+    .calculator {
+        width: 300px
+    }
+
+    .display {
+        height: 87px;
+        line-height: 1.8rem;
+        padding-right: 26px;
+        font-size: 1.8rem
+    }
+
+    .keys {
+        height: auto;
+        padding: 15px;
+        gap: 14px
+    }
+
+    .key {
+        height: 55px;
+        font-size: 2rem;
+        line-height: 2rem;
+        padding-top: 13px;
+    }
+
+    #del, #reset {
+        font-size: 1.5rem;
+        padding-top: 12px;
+    }
+
+    #operator {
+        width:10px;
+        font-size: 1rem;
+        margin: 3px 10px 0 5px;
+    }
+
+    #signNumber {
+        width:10px;
+        font-size: 1rem;
+        margin: 3px 5px 0 10px;
+    }
+}

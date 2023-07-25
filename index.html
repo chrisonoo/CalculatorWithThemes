@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <title>Calculator Krzysztof Zygmunt</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="theme1">
+<div class="calculator">
+
+    <!-- calculator settings -->
+    <div class="settings">
+        <div class="header">calc</div>
+        <div class="switch-theme">
+            <p class="theme">theme</p>
+            <div class="theme-grid">
+                <div class="theme-numbers">
+                    <div class="theme-number">1</div>
+                    <div class="theme-number">2</div>
+                    <div class="theme-number">3</div>
+                </div>
+                <div class="theme-bullets">
+                    <div id="switch-1" class="theme-switch">
+                        <div id="bullet"></div>
+                    </div>
+                    <div id="switch-2" class="theme-switch"></div>
+                    <div id="switch-3" class="theme-switch"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END: calculator settings -->
+
+    <!-- calculator display -->
+    <div class="display">
+        <div id="signNumber"></div>
+        <div class="digits">0</div>
+        <div id="operator"></div>
+    </div>
+    <!-- END: calculator display -->
+
+    <!-- calculator keys -->
+    <div class="keys">
+        <div class="key digit">7</div>
+        <div class="key digit">8</div>
+        <div class="key digit">9</div>
+        <div class="key" id="del">DEL</div>
+        <div class="key digit">4</div>
+        <div class="key digit">5</div>
+        <div class="key digit">6</div>
+        <div class="key operator">+</div>
+        <div class="key digit">1</div>
+        <div class="key digit">2</div>
+        <div class="key digit">3</div>
+        <div class="key operator">-</div>
+        <div class="key" id ="dot">.</div>
+        <div class="key digit">0</div>
+        <div class="key operator">/</div>
+        <div class="key operator">x</div>
+        <div class="key" id="sign">+/-</div>
+        <div class="key" id="reset">RES</div>
+        <div class="key" id="equals">=</div>
+    </div>
+    <!-- END: calculator keys -->
+
+</div>
+
+<!-- calculator logic -->
+<script src="js/script.js"></script>
+</body>
+</html>
